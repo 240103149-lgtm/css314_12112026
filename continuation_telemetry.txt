@@ -1,0 +1,38 @@
+Student 240103149; physical workers=8; logical CPUs=8; spawn multiprocessing
+Saved settings are resumed; completed measurements are not repeated.
+Phase 3A: DRAM copy (96 MB read + 96 MB write)
+Phase 3A: 80,000,000 FLOPs per physical worker
+Phase 3B: naive (2 warmups + 7 timed)
+Phase 3B: reordered (2 warmups + 7 timed)
+Phase 3B: blocked_4 (2 warmups + 7 timed)
+Phase 3B: blocked_8 (2 warmups + 7 timed)
+Phase 3B: blocked_12 (2 warmups + 7 timed)
+Phase 3B: blocked_16 (2 warmups + 7 timed)
+Phase 3B: blocked_24 (2 warmups + 7 timed)
+Phase 3B: blocked_32 (2 warmups + 7 timed)
+Phase 3B: blocked_48 (2 warmups + 7 timed)
+Phase 3B: blocked_64 (2 warmups + 7 timed)
+Phase 3B: blocked_96 (2 warmups + 7 timed)
+Phase 3B: blocked_128 (2 warmups + 7 timed)
+VERIFY_HASH [PHASE3]: 6A9F9730EA78B111 (P_log=8)
+REPORT=/Users/zhannur/parallel_lab/lab_report_240103149.md
+Student 240103149; physical workers=8; logical CPUs=8; spawn multiprocessing
+Saved settings are resumed; completed measurements are not repeated.
+Phase 4: block; N=12,000; one complete measured run
+block: wall_ms=4454.5367; lambda=2.492907; worker_ms=[36.63025, 228.311625, 645.329416, 1146.077584, 1712.746375, 2420.850667, 3440.836333, 4359.585708]
+Phase 4: cyclic; N=12,000; one complete measured run
+cyclic: wall_ms=2695.0247; lambda=1.014874; worker_ms=[2504.221917, 2543.446916, 2551.009208, 2602.466333, 2590.48875, 2570.366542, 2572.066666, 2580.526167]
+Phase 4: dynamic_1; N=12,000; one complete measured run
+dynamic_1: wall_ms=2707.6929; lambda=1.001062; worker_ms=[2615.496, 2612.56225, 2616.940334, 2611.593292, 2614.987958, 2612.882291, 2614.123708, 2614.725958]
+Phase 4: dynamic_4; N=12,000; one complete measured run
+dynamic_4: wall_ms=2891.2158; lambda=1.002888; worker_ms=[2801.99125, 2793.354917, 2794.441666, 2806.977417, 2800.700833, 2788.684458, 2800.08425, 2804.919542]
+Phase 4: dynamic_16; N=12,000; one complete measured run
+dynamic_16: wall_ms=2848.7158; lambda=1.011238; worker_ms=[2704.7735, 2708.606541, 2698.598875, 2750.619583, 2738.318709, 2746.826125, 2760.400292, 2729.653791]
+Phase 4: dynamic_64; N=12,000; one complete measured run
+dynamic_64: wall_ms=2869.8799; lambda=1.022871; worker_ms=[2761.462708, 2724.341292, 2763.717417, 2788.652, 2629.018458, 2785.440166, 2653.531791, 2704.230917]
+Phase 4: dynamic_256; N=12,000; one complete measured run
+dynamic_256: wall_ms=3075.6403; lambda=1.128358; worker_ms=[2239.889, 2476.8405, 2597.29375, 2972.143666, 2747.128625, 2992.091292, 2851.179, 2337.202333]
+Phase 4: dynamic_1024; N=12,000; one complete measured run
+dynamic_1024: wall_ms=3770.7996; lambda=1.600865; worker_ms=[3390.758125, 1222.5975, 3687.879291, 830.205291, 3080.1545, 1641.231125, 2071.716417, 2504.885542]
+VERIFY_HASH [PHASE4]: D70A9BCBDCC6072A (P_log=8)
+REPORT=/Users/zhannur/parallel_lab/lab_report_240103149.md

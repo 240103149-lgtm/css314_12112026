@@ -1,0 +1,17 @@
+{
+  "student_id": 240103149,
+  "logical_cpus": 8,
+  "strong_N": 1600000,
+  "weak_N0": 250000,
+  "warmups": 2,
+  "timed_runs": 7,
+  "strong": [[1,2546.9937,9.9984],[2,1310.5548,14.8928],[3,979.9614,12.8459],[4,779.4175,10.7455],[5,746.6861,14.4674],[6,690.4047,2.5878],[7,649.1948,18.4892],[8,619.4955,12.0069]],
+  "weak": [[1,250000,411.7335,21.0719,0.012141],[2,500000,451.5636,20.3129,0.022184],[3,750000,475.3350,4.2404,0.033086],[4,1000000,507.0928,3.9177,0.043767],[5,1250000,589.1755,3.6823,0.048128],[6,1500000,693.7052,103.8537,0.049948],[7,1750000,747.6274,52.6357,0.054942],[8,2000000,804.6131,41.0497,0.057064]],
+  "stage_a_strong_p1_ms": 31.9643,
+  "stage_a_weak_p8_ms": 45.9141,
+  "reported_amdahl_ceiling": 79.6824,
+  "reported_amdahl_p8": 7.3540,
+  "reported_gustafson_p8": 7.6006,
+  "verify": "VERIFY_HASH [PHASE2]: 8F068B404ECDE818 (P_log=8)",
+  "provenance": "User-supplied console summary. Original individual timing samples and source code were not supplied. Values are preserved at their reported precision."
+}
