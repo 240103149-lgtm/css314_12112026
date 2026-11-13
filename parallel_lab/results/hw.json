@@ -1,0 +1,14 @@
+{
+  "os": "Darwin 24.1.0",
+  "python": "3.12.7",
+  "P_log": 8,
+  "P_phys": 8,
+  "model": "Apple M3",
+  "line": 128,
+  "L1d": 65536,
+  "L2": 4194304,
+  "L3": null,
+  "raw": "Apple M3\nhw.physicalcpu: 8\nhw.logicalcpu: 8\nhw.cachelinesize: 128\nhw.l1dcachesize: 65536\nhw.l2cachesize: 4194304\nhw.perflevel0.physicalcpu: 4\nhw.perflevel1.physicalcpu: 4",
+  "P_cores": 4,
+  "E_cores": 4
+}
